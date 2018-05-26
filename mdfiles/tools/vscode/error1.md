@@ -1,4 +1,4 @@
-# mac安装vscode出现错误There was an error in starting the debug server. Error = {"code":"ENOTFOUND","errno":"ENOTFOUND","syscall":"getaddrinfo","address":"localhost"}
+### mac安装vscode出现错误There was an error in starting the debug server. Error = {"code":"ENOTFOUND","errno":"ENOTFOUND","syscall":"getaddrinfo","address":"localhost"}
 
 在使用mac系统运行vscode搭建python环境，并且进行代码的调试时出现错误：
 There was an error in starting the debug server. Error = {"code":"ENOTFOUND","errno":"ENOTFOUND","syscall":"getaddrinfo","address":"localhost"}
