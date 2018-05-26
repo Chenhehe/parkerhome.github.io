@@ -1,6 +1,28 @@
 {
-    "plugins": ["expandable-chapters"],
+    "title": "ParkerChenHome",
+    "description": "一名普通开发者的问题记录日志",
+    "plugins": 
+    [
+        "-search",
+        "expandable-chapters",
+        "github",
+        "-sharing",
+        "ad",
+        "splitter",
+        "sitemap",
+        "book-summary-scroll-position-saver",
+        "anchor-navigation"
+    ],
     "pluginsConfig": {
-        "expandable-chapters":{}
+        "expandable-chapters":{},
+        "github": {
+            "url": "https://github.com/ParkerHome"
+        },
+        "ad": {
+            "contentBottom": "<p>本站点作为笔者在开发中遇到的棘手问题的记录，希望可以帮助到更多的开发者！有任何疑问可以联系:parker-chen@qq.com</p>"
+          },
+          "sitemap": {
+            "hostname": "https://parkerhome.github.io/"
+        }
     }
 }
